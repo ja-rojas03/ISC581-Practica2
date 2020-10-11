@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:background="@color/bgColor">
+
+    <Button
+        android:id="@+id/storage_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Storage"
+        android:textColor="@color/colorAccent"
+        android:background="@color/bgColor"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/location_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textColor="@color/colorAccent"
+        android:background="@color/bgColor"
+        app:layout_constraintTop_toBottomOf="@id/storage_btn"
+        android:layout_margin="20dp"/>
+    <Button
+        android:id="@+id/camera_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        android:textColor="@color/colorAccent"
+        android:background="@color/bgColor"
+        app:layout_constraintTop_toBottomOf="@id/location_btn"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/phone_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textColor="@color/colorAccent"
+        android:background="@color/bgColor"
+        app:layout_constraintTop_toBottomOf="@id/camera_btn"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/contacts_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        android:textColor="@color/colorAccent"
+        android:background="@color/bgColor"
+        app:layout_constraintTop_toBottomOf="@id/phone_btn"
+        android:layout_margin="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
